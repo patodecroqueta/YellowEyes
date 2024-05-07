@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/inicio.unity
+    guid: 7e9588d0e3e0259468f375e4748ee1bb
+  - enabled: 1
+    path: Assets/-DemaCiudad/Scenes/Demaescape.unity
+    guid: 03ebf06851f383d40a2f031b5cd2dfad
   m_configObjects: {}
