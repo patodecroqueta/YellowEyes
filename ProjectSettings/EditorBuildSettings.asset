@@ -11,4 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/-DemaCiudad/Scenes/Demaescape.unity
     guid: 03ebf06851f383d40a2f031b5cd2dfad
+  - enabled: 1
+    path: Assets/escena neds.unity
+    guid: e238b8407b319dd429b9fa531838a331
+  - enabled: 1
+    path: Assets/cuevaescena.unity
+    guid: c2351fec6b933504daa7e55a743db5b3
+  - enabled: 1
+    path: Assets/ESCENAFUERA/Scenes/ultimaEscena/ultimaEscena.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}

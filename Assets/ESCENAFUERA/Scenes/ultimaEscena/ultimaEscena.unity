@@ -140,6 +140,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: escenafinalprefab
       objectReference: {fileID: 0}
+    - target: {fileID: 2686888156759541208, guid: 2bd85f84a786347428534c64d0380b5d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.846466
+      objectReference: {fileID: 0}
+    - target: {fileID: 2686888156759541208, guid: 2bd85f84a786347428534c64d0380b5d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -16.987247
+      objectReference: {fileID: 0}
+    - target: {fileID: 2686888156759541208, guid: 2bd85f84a786347428534c64d0380b5d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -28.182951
+      objectReference: {fileID: 0}
+    - target: {fileID: 2686888156759541208, guid: 2bd85f84a786347428534c64d0380b5d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.22357954
+      objectReference: {fileID: 0}
+    - target: {fileID: 2686888156759541208, guid: 2bd85f84a786347428534c64d0380b5d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.0074262517
+      objectReference: {fileID: 0}
+    - target: {fileID: 2686888156759541208, guid: 2bd85f84a786347428534c64d0380b5d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9741166
+      objectReference: {fileID: 0}
+    - target: {fileID: 2686888156759541208, guid: 2bd85f84a786347428534c64d0380b5d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.032464776
+      objectReference: {fileID: 0}
     - target: {fileID: 3424187007324570079, guid: 2bd85f84a786347428534c64d0380b5d, type: 3}
       propertyPath: m_TargetTexture
       value: 
@@ -184,12 +212,55 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5828742150818930523, guid: 2bd85f84a786347428534c64d0380b5d, type: 3}
+      propertyPath: m_TargetTexture
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6030628175697654054, guid: 2bd85f84a786347428534c64d0380b5d, type: 3}
       propertyPath: m_TargetTexture
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 7638911873817457530, guid: 2bd85f84a786347428534c64d0380b5d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.8483152
+      objectReference: {fileID: 0}
+    - target: {fileID: 7638911873817457530, guid: 2bd85f84a786347428534c64d0380b5d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -13.446124
+      objectReference: {fileID: 0}
+    - target: {fileID: 7638911873817457530, guid: 2bd85f84a786347428534c64d0380b5d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -36.635822
+      objectReference: {fileID: 0}
+    - target: {fileID: 7638911873817457530, guid: 2bd85f84a786347428534c64d0380b5d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.1160795
+      objectReference: {fileID: 0}
+    - target: {fileID: 7638911873817457530, guid: 2bd85f84a786347428534c64d0380b5d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.031581745
+      objectReference: {fileID: 0}
+    - target: {fileID: 7638911873817457530, guid: 2bd85f84a786347428534c64d0380b5d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.95787233
+      objectReference: {fileID: 0}
+    - target: {fileID: 7638911873817457530, guid: 2bd85f84a786347428534c64d0380b5d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.2607851
+      objectReference: {fileID: 0}
+    - target: {fileID: 8478005155742324293, guid: 2bd85f84a786347428534c64d0380b5d, type: 3}
+      propertyPath: m_TargetTexture
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 1952159933084331955, guid: 2bd85f84a786347428534c64d0380b5d, type: 3}
+    - {fileID: 5160379567326108540, guid: 2bd85f84a786347428534c64d0380b5d, type: 3}
+    - {fileID: 3750200356749072646, guid: 2bd85f84a786347428534c64d0380b5d, type: 3}
+    - {fileID: 2199799109109363371, guid: 2bd85f84a786347428534c64d0380b5d, type: 3}
+    - {fileID: 8152727975473579131, guid: 2bd85f84a786347428534c64d0380b5d, type: 3}
+    - {fileID: 6050830161950014161, guid: 2bd85f84a786347428534c64d0380b5d, type: 3}
+    - {fileID: 2226750963417860389, guid: 2bd85f84a786347428534c64d0380b5d, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2bd85f84a786347428534c64d0380b5d, type: 3}
