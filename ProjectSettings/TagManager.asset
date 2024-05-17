@@ -6,6 +6,7 @@ TagManager:
   tags:
   - llave
   - Enemigo
+  - Llave
   layers:
   - Default
   - TransparentFX
