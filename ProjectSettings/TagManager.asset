@@ -8,6 +8,9 @@ TagManager:
   - Enemigo
   - Llave
   - MainCamara
+  - FxTemporaire
+  - door
+  - Door
   layers:
   - Default
   - TransparentFX
