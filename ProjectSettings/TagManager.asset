@@ -12,6 +12,7 @@ TagManager:
   - door
   - Door
   - Key
+  - CinematicTrigger
   layers:
   - Default
   - TransparentFX
