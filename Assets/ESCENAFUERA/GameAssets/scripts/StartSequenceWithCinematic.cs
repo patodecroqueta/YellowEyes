@@ -5,6 +5,7 @@ public class StartSequenceWithCinematic : MonoBehaviour
 {
     public PlayableDirector cinematic; // El Timeline que representa la cinemática
     public Camera playerCamera;  // La cámara del jugador
+    public AudioSource musicSource; // El AudioSource que reproducirá la música
 
     void Start()
     {
@@ -14,7 +15,12 @@ public class StartSequenceWithCinematic : MonoBehaviour
             playerCamera.gameObject.SetActive(false);
         }
 
-        // Iniciar la cinemática
+        // Iniciar la música y la cinemática
+        if (musicSource != null)
+        {
+            musicSource.Play();
+        }
+
         if (cinematic != null)
         {
             cinematic.stopped += OnCinematicFinished; // Suscribir al evento para cuando termine la cinemática
