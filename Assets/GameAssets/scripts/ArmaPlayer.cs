@@ -20,14 +20,14 @@ public class ArmaPlayer : MonoBehaviour
         } else if (Input.GetKeyDown(KeyCode.Mouse1)){
             //Pulsa el botón derecho
             //Activar el CrossHair
-            crossHair.enabled=true;
+            //crossHair.enabled=true;
             //Modificar el fieldofview de la camara
             camara.fieldOfView=18;
         } else if (Input.GetKeyUp(KeyCode.Mouse1)){
             //Suelta el botón derecho
 //Pulsa el botón derecho
             //Activar el CrossHair
-            crossHair.enabled=false;
+            //crossHair.enabled=false;
             //Modificar el fieldofview de la camara
             camara.fieldOfView=60;
         }

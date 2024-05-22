@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1921580549412132706
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 766499526793504601}
+  m_Layer: 0
+  m_Name: clancybueno
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &766499526793504601
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921580549412132706}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3369567504134301258}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &3077350344196460609
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 766499526793504601}
+    m_Modifications:
+    - target: {fileID: 321983320229312011, guid: b18ad88969a4605458e3fefaff72003f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 321983320229312011, guid: b18ad88969a4605458e3fefaff72003f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 321983320229312011, guid: b18ad88969a4605458e3fefaff72003f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 321983320229312011, guid: b18ad88969a4605458e3fefaff72003f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.030581765
+      objectReference: {fileID: 0}
+    - target: {fileID: 321983320229312011, guid: b18ad88969a4605458e3fefaff72003f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.005545581
+      objectReference: {fileID: 0}
+    - target: {fileID: 321983320229312011, guid: b18ad88969a4605458e3fefaff72003f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9834779
+      objectReference: {fileID: 0}
+    - target: {fileID: 321983320229312011, guid: b18ad88969a4605458e3fefaff72003f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.1783402
+      objectReference: {fileID: 0}
+    - target: {fileID: 321983320229312011, guid: b18ad88969a4605458e3fefaff72003f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 20.556
+      objectReference: {fileID: 0}
+    - target: {fileID: 321983320229312011, guid: b18ad88969a4605458e3fefaff72003f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -183.562
+      objectReference: {fileID: 0}
+    - target: {fileID: 321983320229312011, guid: b18ad88969a4605458e3fefaff72003f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1097816950373756081, guid: b18ad88969a4605458e3fefaff72003f, type: 3}
+      propertyPath: m_Name
+      value: clancy
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1097816950373756081, guid: b18ad88969a4605458e3fefaff72003f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 996241903410923154}
+  m_SourcePrefab: {fileID: 100100000, guid: b18ad88969a4605458e3fefaff72003f, type: 3}
+--- !u!1 &2704635216394173680 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1097816950373756081, guid: b18ad88969a4605458e3fefaff72003f, type: 3}
+  m_PrefabInstance: {fileID: 3077350344196460609}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &996241903410923154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2704635216394173680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d2f628350293084b94daf444c82b591, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: escenacreditos
+--- !u!4 &3369567504134301258 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 321983320229312011, guid: b18ad88969a4605458e3fefaff72003f, type: 3}
+  m_PrefabInstance: {fileID: 3077350344196460609}
+  m_PrefabAsset: {fileID: 0}
