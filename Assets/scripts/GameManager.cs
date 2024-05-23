@@ -10,13 +10,13 @@ public class GameManager : MonoBehaviour
     //Atributos del juego
     public float salud;
     public int saludMaxima;
-    //public int puntuacion = 0;
-    //public int puntuacionMaxima = 0;
+    public int puntuacion = 0;
+    public int puntuacionMaxima = 0;
 
     //ESTO SE PUEDE HACER CON EVENTOS
     public Image imageVida;
-    //public TextMeshProUGUI textoPuntuacion;
-    //public TextMeshProUGUI textoPuntuacionMaxima;
+    public TextMeshProUGUI textoPuntuacion;
+    public TextMeshProUGUI textoPuntuacionMaxima;
 
     public List<GameObject> objetosAActivarCuandoGameOver;
 
@@ -24,6 +24,7 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
+        InicializarPuntuacion();
         ActualizarBarraDeSalud();
     }
     private void Update()
@@ -36,14 +37,28 @@ public class GameManager : MonoBehaviour
             }
         }
     }
-   
+    private void InicializarPuntuacion()
+    {
+        puntuacion = 0;
+        if (PlayerPrefs.HasKey(KEY_HIGHSCORE))
+        {
+            puntuacionMaxima = PlayerPrefs.GetInt(KEY_HIGHSCORE);
+        }
+        else
+        {
+            puntuacionMaxima = 0;
+        }
+        textoPuntuacion.text = puntuacion.ToString();
+        textoPuntuacionMaxima.text = puntuacionMaxima.ToString();
+    }
     private void ActualizarBarraDeSalud()
     {
         imageVida.fillAmount = salud / saludMaxima;
     }
     public void Puntuar(int puntuacion)
     {
-
+        this.puntuacion += puntuacion;
+        this.textoPuntuacion.text = this.puntuacion.ToString();
     }
     public void DecrementarSalud(int decrementoSalud)
     {
@@ -70,11 +85,15 @@ public class GameManager : MonoBehaviour
         {
             objeto.SetActive(true);
         }
- 
+        if (puntuacion > puntuacionMaxima)
+        {
+            PlayerPrefs.SetInt(KEY_HIGHSCORE, puntuacion);
+            PlayerPrefs.Save();
+        }
     }
     public void ReiniciarJuego()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(5);
     }
 
 }
